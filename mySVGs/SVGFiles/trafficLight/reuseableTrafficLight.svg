@@ -3,16 +3,32 @@
 <!-- xmlns="<namespace>" is used in XML for user agents to identify elements and what they belong 
 to. Always have this line in your root SVG. xml:lang is to notify what language the document is in.
 -->
-<svg xmlns="http://www.w3.org/2000/svg" lang="en-US" height="400" width="400">
+<!-- The second namespace is used to define links simple and external. 
+
+"...<defs> element, which contains defini‐tions of SVG content 
+for later use. Children of a <defs> element are never drawn directly." 
+
+"The content of xlink:href is always a URI (Universal Resource
+Identifier). To identify another element in the same document, you
+use a target fragment: a hash mark (#) followed by the other ele‐
+ment’s ID value."-->
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="400">
   <title>Reusable Stoplight</title>
   <defs>
-    <circle id="light" cx="70" r="37.59"/>
+    <circle id="light" cx="70" r="37.59"/> <!--fill="pink" this overrides the inherited fill in use.-->
   </defs>
   <rect x="0" y="0" width="400" height="400" fill="azure" stroke="black" stroke-width="5"/>
   <rect x="20" y="20" width="100" height="280" fill="blue" stroke="black" stroke-width="3"/>
   <g stroke="#000" stroke-width="2" stroke-opacity=".8">
-    <use href="#light" y="76.07" fill="red"/> <!--No cy, but y. Change tomorrow.-->
-    <use href="#light" y="160.58" fill="yellow"/>
-    <use href="#light" y="245.1" fill="green"/>
+    <use xlink:href="#light" href="#light" y="76.07" fill="red"/>
+    <use xlink:href="#light" href="#light" y="160.58" fill="yellow"/>
+    <use xlink:href="#light" href="#light" y="245.1" fill="green"/>
   </g>
 </svg>
+
+<!--"The fill value specified on each <use> element becomes 
+the inherited fill color for that instance of the circle.
+Since the predefined circle did not define itsown fill color, 
+it is filled with the color inherited from the <use>."-->
