@@ -13,7 +13,7 @@ Identifier). To identify another element in the same document, you
 use a target fragment: a hash mark (#) followed by the other ele‐
 ment’s ID value."-->
 
-<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" 
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
   xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="400">
   <title>Reusable Stoplight</title>
   <defs>
