@@ -11,7 +11,7 @@
     <polyline points="104, 0 104, 103"/>
     <polyline points="0, 46 208, 46"/>
   </g> -->
-
+   <!-- Change height to center rune. -->
   <g fill="none" stroke="black" stroke-width="6">
     <polyline points="85.6, 4.6 117.8, 46 85.6, 83.4"/>
     <polyline points="122.4, 4.6 90.2, 46 122.4, 83.4"/>
