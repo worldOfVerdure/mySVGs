@@ -1,9 +1,12 @@
+<!-- Ingwaz by Andrew Chupka -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
-  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox=" 0 0 32.2 84.8"> <!--viewBox or height & width?-->
-  <title>Horizontal Line</title>
-   
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5 0 52.2 88.8"
+  width="52.2" height="88.8">
+  <title>Ingawz</title>
+ 
   <g fill="none" stroke="black" stroke-width="6">
-    <polyline points="85.6, 4.6 117.8, 46 85.6, 83.4"/>
-    <polyline points="122.4, 4.6 90.2, 46 122.4, 83.4"/>
+    <polyline points="10, 4.6 42.2, 46 10, 83.4"/>
+    <polyline points="46.8, 4.6 14.6, 46 46.8, 83.4"/>
   </g>
 </svg>
