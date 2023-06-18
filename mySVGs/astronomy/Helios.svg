@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  xmlns:xlink="http://www.w3.org/1999/xlink" height="500" width="500"
+  viewBox="0 0 500 500">
+  <title>Gradient Stoplight</title>
+
+  <style>
+    {
+      background-color: #323233;
+    }
+  </style>
+
+  <rect width="500" height="500"/>
+  
+  <defs>
+    <radialGradient id="myGradient">
+      <stop offset="5%" stop-color="#fffafa"/>
+      <stop offset="7%" stop-color="#FFe"/>
+      <stop offset="8%" stop-color="#FFd"/>
+      <stop offset="9%" stop-color="#FFc"/>
+      <stop offset="11%" stop-color="#FFb"/>
+      <stop offset="14%" stop-color="#FFa"/>
+      <stop offset="15%" stop-color="#FFFF10"/>
+      <stop offset="19%" stop-color="#FFea10"/>
+      <stop offset="25%" stop-color="#FFea00"/>
+      <stop offset="27.5%" stop-color="#FFda00"/>
+      <stop offset="30%" stop-color="#FFca00"/>
+      <stop offset="31%" stop-color=" #FFc400"/>
+      <stop offset="32%" stop-color="#FFbf10"/>
+      <stop offset="33%" stop-color="#ffbf00"/>
+      <stop offset="34%" stop-color="#ffaa10"/>
+      <stop offset="35%" stop-color="#ff7710"/>
+      <stop offset="37%" stop-color="#FF7910"/>
+      <stop offset="40%" stop-color="#FF6610"/>
+      <stop offset="42%" stop-color="#FF6000"/> -->
+      <stop offset="45%" stop-color="#fe5501"/>
+      <stop offset="55%" stop-color="#fe4b03"/>
+      <stop offset="80%" stop-color="#ff4b03"/>
+      <stop offset="90%" stop-color="#F10500"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="275" cy="250" r="175" fill="url('#myGradient')"/>
+</svg>
+
+<!-- The distance along the gradient vector or ray at which to position this value
+
+A number between 0 and 1, or a percentage.
+
+Valueswill be clamped to the range [0-1] or [0%-100%].
+
+Stops must be listed in order of increasing offsets; if not, the offset will be adjusted to match the previous maximum value.
+
+Default 0 was added in SVG 2; it’s well-supported in browsers, but some older tools may treat a missing offset as an error. -->
