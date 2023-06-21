@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  xmlns:xlink="http://www.w3.org/1999/xlink" height="500" width="500"
+  viewBox="0 0 500 500">
+  <title>Ten Colored Planet</title>
+
+  <style>
+    {
+      background-color: #323233;
+    }
+  </style>
+
+  <rect width="500" height="500"/>
+  
+  <defs>
+    <radialGradient id="myGradient" cx="50%" cy="50%" r="50%" fr="0%" fx="50%" fy="50%"> 
+      <stop offset="10%" stop-color="#fffafa"/>
+      <stop offset="20%" stop-color="pink"/>
+      <stop offset="30%" stop-color="#FDE79D"/>
+      <stop offset="40%" stop-color="#89cff0"/>
+      <stop offset="50%" stop-color="#DE73FF"/>
+      <stop offset="60%" stop-color="#EE4B2B"/>
+      <stop offset="70%" stop-color="#FFA500"/>
+      <stop offset="80%" stop-color="#BF40BF"/>
+      <stop offset="90%" stop-color="#B0FC38"/>
+      <stop offset="100%" stop-color="#00FFFF"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="275" cy="250" r="100" fill="url('#myGradient')"/>
+</svg>
+
+<!-- The distance along the gradient vector or ray at which to position this value
+
+A number between 0 and 1, or a percentage.
+
+Values will be clamped to the range [0-1] or [0%-100%].
+
+Stops must be listed in order of increasing offsets; if not, the offset will be adjusted to match the previous maximum value.
+
+Default 0 was added in SVG 2; it’s well-supported in browsers, but some older tools may treat a missing offset as an error. -->
