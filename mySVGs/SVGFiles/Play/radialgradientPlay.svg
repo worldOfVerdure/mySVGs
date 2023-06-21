@@ -3,16 +3,10 @@
   viewBox="0 0 500 500">
   <title>Helios</title>
 
-  <style>
-    {
-      background-color: #323233;
-    }
-  </style>
-
   <rect width="500" height="500"/>
   
   <defs>
-    <radialGradient id="myGradient">
+    <radialGradient id="myGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" fr="50%">
       <stop offset="5%" stop-color="#fffafa"/>
       <stop offset="7%" stop-color="#FFe"/>
       <stop offset="8%" stop-color="#FFd"/>
