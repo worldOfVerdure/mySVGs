@@ -6,4 +6,4 @@ Some of the downloaded SVGs might have changes made by me for practicing purpose
 
 A .gitignore file is added to ignore the downloads repository.
 
-For the juicey stuff, follow mySVG/SVGFiles/ 
+Head into SVGFiles for the juicey stuff :)
