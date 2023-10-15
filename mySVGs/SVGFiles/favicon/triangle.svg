@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  viewBox="0 0 16 16" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Resume Favicon</title>
+
+  <defs>
+    <linearGradient id="metal" spreadMethod="repeat" gradientTransform="scale(0.7) rotate(75)">
+      <stop stop-color="#808080" offset="0"/>
+      <stop stop-color="#404040" offset="0.25"/>
+      <stop stop-color="#C0C0C0" offset="0.35"/>
+      <stop stop-color="#808080" offset="0.5"/>
+      <stop stop-color="#E0E0E0" offset="0.7"/>
+      <stop stop-color="#606060" offset="0.75"/>
+      <stop stop-color="#A0A0A0" offset="0.9"/>
+      <stop stop-color="#808080" offset="1"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="1,1 15,1 8,15" fill="url('#metal')" 
+  stroke="black" stroke-width=".2"/>
+
+</svg>

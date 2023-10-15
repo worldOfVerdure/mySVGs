@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  viewBox="0 0 16 16" height="16" width="16" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Calendar Favicon</title>
+
+  <defs>
+    <rect id="smallRect" rx=".4" ry=".4" width="3" height="3" stroke-width=".2" stroke="#D3D3D3"/>
+
+    <radialGradient id="reflection" fr=".025" fx=".23" fy=".29">
+      <stop offset="0" stop-color="#f7f7f1"/>
+      <stop offset=".196" stop-color="#89cff0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="16" height="16" fill="#FDE79D"/>
+  <rect x="8.5" y="1"  rx=".2" ry=".4" width="6.7" height="7" stroke="#D3D3D3" stroke-width=".2" fill="url('#reflection')"/>
+  <rect x="1" y="13" rx=".4" ry=".2" width="14.2" height="2" stroke="#D3D3D3" stroke-width=".2" fill="#77DD77"/>
+
+  <g>
+    <use href="#smallRect" x="1" y="1" fill="#F8C8DC"/>
+    <use href="#smallRect" x="5" y="1" fill="#FFA500"/>
+    <use href="#smallRect" x="1" y="5" fill="#9370DB"/>
+    <use href="#smallRect" x="5" y="5" fill="#F8C8DC"/>
+    <use href="#smallRect" x="1" y="9" fill="#F8C8DC"/>
+    <use href="#smallRect" x="5" y="9" fill="#FFA500"/>
+    <use href="#smallRect" x="9" y="9" fill="#F8C8DC"/>
+  </g>
+</svg>

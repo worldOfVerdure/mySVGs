@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  xmlns:xlink="http://www.w3.org/1999/xlink" height="750" width="750"
+  viewBox="0 0 750 750">
+  <title>Green cx cy fx fy</title>
+
+  <defs>
+    <radialGradient id="myGradientCX" cx="50%" cy="50%" r="10%" fx="50%" fy="50%" fr="5%">
+      <stop offset="33.3%" stop-color="#eeff30"/>
+      <stop offset="50%" stop-color="#10cd20"/>
+      <stop offset="50%" stop-color="#ee2030"/>
+    </radialGradient>
+
+    <radialGradient id="myGradientCY" cx="50%" cy="50%" r="10%" fx="70%" fy="50%">
+      <stop offset="33.3%" stop-color="#eeff30"/>
+      <stop offset="50%" stop-color="#10cd20"/>
+      <stop offset="50%" stop-color="#ee2030"/>
+    </radialGradient>
+
+    <radialGradient id="myGradientFX" cx="50%" cy="50%" fx="50%" fy="50%">
+      <stop offset="33.3%" stop-color="#eeff30"/>
+      <stop offset="66.6%" stop-color="#10cd20"/>
+      <stop offset="85%" stop-color="#ee2030"/>
+    </radialGradient>
+
+    <radialGradient id="myGradientFY" cx="50%" cy="50%" fx="50%" fy="50%">
+      <stop offset="33.3%" stop-color="#eeff30"/>
+      <stop offset="66.6%" stop-color="#10cd20"/>
+      <stop offset="85%" stop-color="#ee2030"/>
+    </radialGradient>
+  </defs>
+  
+  <rect x="20" y="20" rx="25" ry="25" width="250" height="250" stroke-width="10" stroke="#000" fill="#fff"/>
+  <circle cx="145" cy="145" r="100" fill="url('#myGradientCX')"/>
+
+  <rect x="340" y="20" rx="25" ry="25" width="250" height="250" stroke-width="10" stroke="#000" fill="#fff"/>
+  <circle cx="465" cy="145" r="100" fill="url('#myGradientCY')"/>
+
+  <rect x="20" y="370" rx="25" ry="25" width="250" height="250" stroke-width="10" stroke="#000" fill="#fff"/>
+  <circle cx="145" cy="493" r="100" fill="url('#myGradientFX')"/>
+
+  <rect x="340" y="370" rx="25" ry="25" width="250" height="250" stroke-width="10" stroke="#000" fill="#fff"/>
+  <circle cx="465" cy="493" r="100" fill="url('#myGradientFY')"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US"
+  viewBox="0 0 590 220" width="590" height="220">
+  <title>Resume Header Lineless</title>
+
+  <defs>
+    <linearGradient id="metal" spreadMethod="repeat" gradientTransform="scale(0.7) rotate(75)">
+      <stop stop-color="#808080" offset="0"/>
+      <stop stop-color="#404040" offset="0.25"/>
+      <stop stop-color="#C0C0C0" offset="0.35"/>
+      <stop stop-color="#808080" offset="0.5"/>
+      <stop stop-color="#E0E0E0" offset="0.7"/>
+      <stop stop-color="#606060" offset="0.75"/>
+      <stop stop-color="#A0A0A0" offset="0.9"/>
+      <stop stop-color="#808080" offset="1"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <circle cx="300" cy="110" r="105" stroke="black" stroke-width="3" fill="none"/>
+    <polygon points="226.0152,36.5 373.9848,36.5 300,183.5" fill="url('#metal')" 
+      stroke="black" stroke-width="2"/>
+  </g>
+</svg>

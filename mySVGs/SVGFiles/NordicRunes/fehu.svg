@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en-US" lang="en-US" viewBox="0 0 200 200"
+  width="200" height="200">
+  <title>Fehu</title>
+
+  <g fill="none" stroke-width="12">
+    <polyline points="20,20 20,180" stroke="black"/>
+    <polyline points="20,80 80,25" stroke-width="12" stroke="black"/>
+    <polyline points="20,120 80,80" stroke="black"/>
+  </g>
+  
+</svg>
