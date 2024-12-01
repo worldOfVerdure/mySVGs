@@ -41,7 +41,7 @@
     </radialGradient>
   </defs>
 
-  <circle cx="275" cy="250" r="175" fill="url('#myGradient')"/>
+  <circle cx="250" cy="250" r="175" fill="url('#myGradient')"/>
 </svg>
 
 <!-- The distance along the gradient vector or ray at which to position this value
@@ -52,4 +52,5 @@ Values will be clamped to the range [0-1] or [0%-100%].
 
 Stops must be listed in order of increasing offsets; if not, the offset will be adjusted to match the previous maximum value.
 
-Default 0 was added in SVG 2; it’s well-supported in browsers, but some older tools may treat a missing offset as an error. -->
+Default 0 was added in SVG 2; it’s well-supported in browsers, but some older tools may treat a
+missing offset as an error. -->

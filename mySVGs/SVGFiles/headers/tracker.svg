@@ -1,0 +1,15 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg"
+  xml:lang="en-US"
+  lang="en-US"
+  viewbox="0 0 200 200"
+  width="200"
+  height="200"
+>
+<style>
+  .size {
+    font: bold 2.5vw sans-serif;
+  }
+</style>
+<text x="100" y="75" stroke="darkGreen" class="size">GO!</text>
+</svg>
